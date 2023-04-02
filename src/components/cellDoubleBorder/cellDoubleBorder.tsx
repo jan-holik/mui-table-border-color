@@ -4,7 +4,7 @@ import { muiTableBorderColor } from "../../services/muiTableBorderColor";
 
 
 type CellDoubleBorderType = {
-    children: React.ReactNode,
+    children: React.ReactNode;
 };
 
 export const CellDoubleBorder: React.FC<CellDoubleBorderType> = props => {
